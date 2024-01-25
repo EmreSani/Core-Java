@@ -37,6 +37,5 @@ public class Scanner02 {
         System.out.println("weight = " + weight);
         System.out.println("maritalStatus = " + maritalStatus);
 
-        //ODEV:nextLine() methodunun birsey girmeden enter;la gecmesini do-while ile duzeltiniz
     }
 }

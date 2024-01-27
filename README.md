@@ -1,2 +1,2 @@
 # CoreJava
-Java practise
+Java practice

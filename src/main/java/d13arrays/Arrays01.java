@@ -83,6 +83,7 @@ public class Arrays01 {
             totalChar = totalChar + cities[i].length(); //length() method'dur, aktif sayma yapar
 
         }
+
         System.out.println(totalChar); //30
         //--------------------------
         //2.yol:

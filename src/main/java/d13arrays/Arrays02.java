@@ -48,5 +48,7 @@ public class Arrays02 {
 
         System.out.println(minimum + maksimum); //59
 
+
+
     }
 }

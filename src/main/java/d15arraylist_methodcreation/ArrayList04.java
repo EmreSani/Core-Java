@@ -37,7 +37,7 @@ public class ArrayList04 {
         for (int i = 0; i < r.size(); i++) {
             if (r.get(i).contains("a")) {
                 r.remove(i);
-                //i--;
+               i--;
             }
         }
         System.out.println(r);

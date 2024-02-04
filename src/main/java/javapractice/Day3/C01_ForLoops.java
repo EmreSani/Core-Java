@@ -1,4 +1,4 @@
-package JavaPractice.Day3;
+package javapractice.Day3;
 
 import java.util.Scanner;
 

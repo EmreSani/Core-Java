@@ -46,7 +46,9 @@ public class Arrays03 {
         System.out.println(Arrays.toString(names)); //[A, B, E, K, T]
 
         int result = Arrays.binarySearch(names, "B");
+        int result1 = Arrays.binarySearch(names, "b");
         System.out.println(result); //1, C'de -3 verdi. - yok demek. 3 olsaydi, hangi sirada olacagi bilgisi
+        System.out.println(result1 + "burasi b");
 
         int[] arr = {2, 1, 7, 6};
         Arrays.sort(arr);

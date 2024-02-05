@@ -26,12 +26,7 @@ public class ArrayList04 {
         r.add("Van");
         System.out.println(r); //[Manisa, Nigde, Tokat, Van]
 
-/*        for (String w : r){ //4 defa calisacak
-            if (w.contains("a")){
-                r.remove(w);
-            }
-        }
-        System.out.println(r); //HATA*/
+
         //[Manisa, Nigde, Tokat, Van]
 
         for (int i = 0; i < r.size(); i++) {

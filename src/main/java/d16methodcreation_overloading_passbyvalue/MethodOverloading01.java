@@ -28,13 +28,13 @@ public class MethodOverloading01 {
            static veya non-static olmanin hicbir etkisi yoktur.
         */
 
-        add(3,5);
-
+       decrease(5.0,3);
+       add(5,3);
     } //main disi
     //ornek : Toplama islemi yapan bir method
     //olusturun ve sonra da overload edin
-    public static void add(int a, int b){
-        System.out.println(a + b);
+    public static void add(int a , int b){
+        System.out.println(a+b);
     }
     public static void add(double a, double b){
         System.out.println(a + b);
@@ -45,10 +45,17 @@ public class MethodOverloading01 {
     public static void add(int a, double b){
         System.out.println(a + b);
     }
+
     public static void add(int a, int b, int c){
         System.out.println(a + b);
     }
+    public static void decrease(int a, int b){
+        System.out.println(a-b);
+    }
 
+    public static void decrease(double a, int b){
+        System.out.println(a-b);
+    }
     //Auto Widening - otomatik genisletme
     //Kucuk veri tipinden buyuk veri tipine cevirme.Java otomatik yapar.
 

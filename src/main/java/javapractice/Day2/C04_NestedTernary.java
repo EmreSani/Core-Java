@@ -1,4 +1,4 @@
-package javapractice.Day2;
+package Day2;
 
 import java.util.Scanner;
 
@@ -7,28 +7,24 @@ public class C04_NestedTernary {
 
         /*
 
-        1. Kullanıcıdan iki sayı alın.
-        2. Ternary kullanarak,
-            - Sayılar birbirine eşit ise, konsola "Sayılar birbirine eşit" yazdırın.
-            - Sayılar birbirine eşit değil ise, büyük olan sayının karesini ekrana yazdırın.
+                1. Kullanıcıdan iki sayı alın.
+                2. Ternary kullanarak,
+                    - Sayılar birbirine eşit ise, konsola "Sayılar birbirine eşit" yazdırın.
+                    - Sayılar birbirine eşit değil ise, büyük olan sayının karesini ekrana yazdırın.
 
- */
+         */
 
-        Scanner scan = new Scanner(System.in);
+        Scanner scanner = new Scanner(System.in);
 
-        System.out.println("Lutfen bir sayi giriniz");
-        int x = scan.nextInt();
+        System.out.println("İlk sayıyı giriniz:");
+        int sayi1 = scanner.nextInt();
 
-        System.out.println("Lutfen ikinci sayiyi giriniz");
-        int y = scan.nextInt();
+        System.out.println("İkinci sayıyı giriniz:");
+        int sayi2 = scanner.nextInt();
 
-        Object result= x==y ? "sayilar birbirine esit" : ( x>y ? x*x : y*y );
+        Object result = sayi1==sayi2 ? ("Sayılar biririne eşit") : (sayi1>sayi2 ? sayi1*sayi1 : sayi2*sayi2);
 
         System.out.println(result);
-
-
-
-
 
     }
 }

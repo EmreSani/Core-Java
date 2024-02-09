@@ -20,7 +20,7 @@ public class C04_Concatination {
         System.out.println(str1+sayi1);
 
         // Java8Guzel
-        System.out.println(str1 + (sayi1+sayi2) + "Guzel");
+        System.out.println(str1 + (sayi1+sayi2) + str2);
 
         // 2Guzel15
         System.out.println((sayi1-sayi2)+str2+ (sayi1*sayi2));

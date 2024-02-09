@@ -1,25 +1,33 @@
-package javapractice.Day2;
+package Day2;
 
 import java.util.Scanner;
 
 public class C03_Ternary {
     public static void main(String[] args) {
 
-        Scanner input = new Scanner(System.in);
-        System.out.println("Bir sayi giriniz");
-        int num = input.nextInt();
+        /*
+                1. Kullanıcıdan bir sayı alın.
+                2. Ternary kullanarak,
+                    - Girilen sayı çift ise konsola "Çift Sayı" yazdırın.
+                    - Girilen sayı tek ise, sayıyı 3 arttırarak konsola yazdırın.
+         */
 
-        //first
-       Object sonuc = num%2 == 0 ? ("Cift sayi"):(num+3);
+        // ternary:     expression ? (true) : (false)
+
+        Scanner input = new Scanner(System.in);
+
+        System.out.println("Bir sayi giriniz.");
+        int sayi = input.nextInt();
+
+        // 1. Yol
+        Object sonuc = sayi%2 == 0 ? ("Çift Sayı") : (sayi+3);
         System.out.println(sonuc);
 
-        //second
-        System.out.println(num%2==0? "Cift sayi" : num+3);
+        // 2. Yol
+        System.out.println(sayi%2==0 ? "Çift Sayı" : sayi+3);
 
-
-
-
-
+        // Pozitif Negatif
+        System.out.println(sayi > 0 ? ("Pozitif") : ("Negatif"));
 
     }
 }

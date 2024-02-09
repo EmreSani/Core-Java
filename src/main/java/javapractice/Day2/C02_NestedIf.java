@@ -1,4 +1,4 @@
-package javapractice.Day2;
+package Day2;
 
 import java.util.Scanner;
 
@@ -20,19 +20,28 @@ public class C02_NestedIf {
         System.out.println("Bir sayı giriniz:");
         int sayi = input.nextInt();
 
-        if (sayi < 0) {
+        if (sayi<0){
             System.out.println("Negatif");
-        } else if (sayi == 0) {
+        }else if (sayi == 0){
             System.out.println("Sıfır");
-        } else { // Numara sıfırdan büyük ise
+        }else{ // Numara sıfırdan büyük ise
 
-            if (sayi < 10) {
+            if (sayi<10){
                 System.out.println("Rakam");
-            } else {
+            }else{
                 System.out.println("Pozitif Sayı");
             }
 
+            /*
+            if (sayi<10){
+                System.out.println("Rakam");
+                System.out.println("Test");
+            }
+            else
+                System.out.println("Pozitif Sayı");
+             */
+
         }
-    input.close();
+
     }
 }

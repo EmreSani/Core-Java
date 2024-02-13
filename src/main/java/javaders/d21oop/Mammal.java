@@ -1,4 +1,4 @@
-package d21oop;
+package javaders.d21oop;
 
 public class Mammal extends Animal {
 

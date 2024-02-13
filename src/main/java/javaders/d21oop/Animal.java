@@ -1,4 +1,4 @@
-package d21oop;
+package javaders.d21oop;
 
 public class Animal { //public final class Animal yazarsak Animal'in child'i olmaz
 

@@ -2,7 +2,7 @@ package miniprojects.calculator;
 
 import java.util.Scanner;
 
-public class C04_doWhileLoop {
+public class Calculator {
     public static void main(String[] args) {
         /*
         kullanıcı c tusuna basana kadar islem yapmaya devam eden bir hesap makinesi yapınız

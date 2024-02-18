@@ -10,6 +10,11 @@ public class AudiRunner {
         a4.analog(); //Audi A4 analog klima kullanir
         a4.esp(); //Audi A4 esp fren sistemi kullanir
 
+        AudiS5 s5 = new AudiS5();
+        s5.abs();
+        s5.dijital();
+        s5.gas();
+
 
     }
 }

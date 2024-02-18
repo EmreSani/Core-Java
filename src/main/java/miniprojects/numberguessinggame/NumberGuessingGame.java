@@ -19,7 +19,7 @@ public class NumberGuessingGame {
         int girilenSayi;
         int tahminSayisi = 0;
         int kalanTahmin = 5;
-        System.out.println(rndSayi);
+
         while (kalanTahmin>0) {
             System.out.println("Lutfen 50 ile 100 arasi sayi giriniz\n" + kalanTahmin + " tahmin hakkiniz var");
             girilenSayi = input.nextInt();
@@ -34,7 +34,7 @@ public class NumberGuessingGame {
                 System.out.println("Lutfen daha kucuk sayi giriniz");
             }
         } if (kalanTahmin==0){
-            System.out.println("tahmin hakkınız kalmamistir lutfen tekrar deneyiniz");
+            System.out.println("tahmin hakkınız kalmamistir, lutfen tekrar deneyiniz...");
         }
     }
 }

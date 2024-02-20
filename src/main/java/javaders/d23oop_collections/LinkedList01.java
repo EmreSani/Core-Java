@@ -145,6 +145,17 @@ public class LinkedList01 {
         System.out.println(myList.pop()); //Zeynep
         System.out.println(myList); //[Veli, Ayse, Fatma, Huseyin]
 
+        //peek();
+        //element();
+        //Not: ikisi de ilk elemani silmeden bize verir.
+        //peek() List bossa ==> null
+        //element() List bossa ==> hata verir.
+        //poll();
+        //pop();
+        //Not: ikisi de ilk elemani bize verir ve sonrasinda siler.
+        //poll() List bossa ==> null
+        //pop() List bossa ==> hata verir.
+
 
     }
 }

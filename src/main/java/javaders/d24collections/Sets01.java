@@ -1,4 +1,4 @@
-package d24collections;
+package javaders.d24collections;
 
 import java.util.*;
 
@@ -93,6 +93,33 @@ public class Sets01 {
         ts.add('U');
         //ts.add(null); //null koyamazsiniz cunku null olsa dogal siralama olamazdi
         System.out.println(ts); //[A, G, R, U, Z]
+
+        //Siralama oldguundan ilk eleman son elemani kullanmak icin methodlar var
+
+        System.out.println(ts.first());
+        System.out.println(ts.last());
+        System.out.println(ts.lower('R'));  //G==> Verilen eleman olan R'den bir önceki eleman olan G'yi verir.
+        System.out.println(ts.lower('D'));  //A==>  verir listede olmasada bir öncekini verir.
+        System.out.println(ts.lower('A'));   //null verir.
+
+        System.out.println(ts.higher('K')); //R ==> Verilen K den sonraki elemani verir.
+
+        System.out.println(ts.headSet('R'));  //[A,G]==>R den öncekileri set olarak verir. Parantez icindeki dahil degil!!
+        System.out.println(ts.headSet('R',true)); //[A,G,R]  Bu sekildeki parantez icindekini de dahil eder.
+
+        System.out.println(ts.tailSet('G')); //[G,R,U,Z] ==> Parentez icindeki G dahildir.
+        System.out.println(ts.tailSet('G',false)); // [R,U,Z] ==> Parantez icindkei bu sekilde dahil olmaz !!
+
+        System.out.println(ts.ceiling('R'));  //ceiling ; cati ==> R ==>  Eleman set'in icinde varsa elemanin kendini return eder.
+        System.out.println(ts.ceiling('K'));  // R==>  Eleman set'in icinde yoksa sonraki eleman return eder.
+        //higher() methodundan farki kendisini de veriyor olmasi
+        System.out.println(ts.floor('G')); //G ==> Eleman set'in icinde varsa elemanin kendisini return eder.
+        System.out.println(ts.floor('J')); //G ==> Eleman set'in icinde yoksa önceki elemani return eder.
+
+        System.out.println(ts.subSet('G','Z'));  //[G,R,U] ==> Ilk parametre dahil ikinic parametre haric
+        System.out.println(ts.subSet('G','U'));  //U'dan sonraki herhnagi bir eleman da yazilabilir.
+        System.out.println(ts.subSet('G',false,'Z',true));  // [R,U,Z]
+        //ilkini haric ikincisini dahil yaptik
 
         //subset() belirli bir aralıktaki elemanları içeren yeni bir küme oluşturmak için kullanılır.
         //subSet() methodu, belirtilen aralıkta bulunan elemanlardan oluşan bir sorted set alt kümesi

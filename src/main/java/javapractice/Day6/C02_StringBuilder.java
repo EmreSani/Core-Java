@@ -1,4 +1,4 @@
-package javapractice.Day6;
+package Day6;
 
 public class C02_StringBuilder {
     public static void main(String[] args) {
@@ -24,7 +24,7 @@ public class C02_StringBuilder {
         System.out.println(sb.length());
 
         // - Bu objeye "hava güzel" verisini ekleyin ve yazdırın.
-        sb.append("hava guzel");
+         sb.append("hava guzel");
         System.out.println(sb);
 
         // - Aradaki boşluğu siliniz.

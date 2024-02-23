@@ -1,4 +1,4 @@
-package javapractice.Day6;
+package Day6;
 
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;

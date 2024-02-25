@@ -1,4 +1,4 @@
-package javaquestionbank.wrapper_classes;
+package javaquestions.wrapper_classes;
 
 public class Q02 {
     // Type a code to convert “103” String to byte and to convert “2351” String to short then print

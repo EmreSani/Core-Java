@@ -1,4 +1,4 @@
-package javaquestionbank.type_casting;
+package javaquestions.type_casting;
 
 public class Q04 {
     //Create a double variable and convert it to a short variable, then print the value of the short

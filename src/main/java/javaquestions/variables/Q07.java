@@ -1,4 +1,4 @@
-package javaquestionbank.variables;
+package javaquestions.variables;
 
 import java.util.Scanner;
 

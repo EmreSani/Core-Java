@@ -1,4 +1,4 @@
-package javaquestionbank.variables;
+package javaquestions.variables;
 
 public class Q02 {
     //Create a float variable, a long variable, and an integer variable for any 3 items. Print the

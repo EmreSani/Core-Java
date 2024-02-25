@@ -1,4 +1,4 @@
-package javaquestionbank.type_casting;
+package javaquestions.type_casting;
 
 public class Q05 {
     //Create a byte variable and convert it to a double variable, then print the value of the double

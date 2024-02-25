@@ -1,4 +1,4 @@
-package javaquestionbank.wrapper_classes;
+package javaquestions.wrapper_classes;
 
 public class Q01 {
     //  Type a code to find the sum of the minimum value of the byte and the maximum value of

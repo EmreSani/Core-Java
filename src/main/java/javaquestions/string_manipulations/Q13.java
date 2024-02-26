@@ -9,4 +9,13 @@ public class Q13 {
     // For ‘!1a23b4’ your code should print false on the console
     // For ‘!1a23b4?es’ your code should print true on the console
     // For ‘! a b 3 k’ your code should print false on the console
+    public static void main(String[] args) {
+        String password = "A2b!asdf";
+        boolean atLeastEightChars = password.replaceAll("\\s", "").length() >= 8;
+        boolean atLeastOneSymbol = password.replaceAll("\\s", "").replaceAll("[A-Za-z0-9]", "").length() > 0;
+
+        System.out.println("Is the password valid? " + (atLeastEightChars && atLeastOneSymbol));
+
+
+    }
 }
